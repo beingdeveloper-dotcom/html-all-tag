@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+<!--   head element conatins machine-readable information about the document-->
+    <meta charset="ISO-8859-1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+  heading element h1-h6
+<!--  h1
+  font-size:32px;
+  h2
+  font-size:24px;
+  h3
+  font-size:19px;
+  h4
+  font-size:16px;
+  h5
+  font-size:14px;
+  h6
+  font-size:11px
+  font-weight:700
+  
+  all font size (default)
+  -->
+   <h1>heading1</h1>
+   <h2>heading2</h2>
+   <h3>heading3</h3>
+   <h4>heading4</h4>
+   <h5>heading5</h5>
+   <h6>heading6</h6>
+   <hr>
+   <header>
+   	<h1> heading element</h1>
+   	<p>paragrapha element</p>
+   </header>
+<!--   hgroup element represenr a muli-->
+   <hgroup>
+   	 <p>hgroup element represenr a multi-level  heading for section of a document. it groups a set of h1-h6.</p>
+   	 <h1>heading 1</h1>
+   	 <h2>heading 2</h2>
+   	 <h3>heading 3</h3>
+   </hgroup>
+<!--   header element reperesent introductory content, typically a grounp of introductory or navigation aids. it may contains some heading elements but also a logo, a search form, an author name and other elements-->
+  
+<!--  <a href=""> anchor element, with its href attribute, creates a hyperlink  to web pages,files, email address, location in the same page,or anything else a url can address.If the href attribute is present, pressing the enter key while focused on the <a> element will activate it.</a>-->
+  
+  <a href="https://www.google.com/" >click</a>
+  <a href="https://www.facebook.com" target="_blank">facebook</a>
+  <a href="https://html5up.net/" target="_parent" >Html5up</a>
+  <a href="https://www.microsoft.com/en-in/download/office.aspx" target="_top">MS Office</a>
+<!--   related attribute
+  targer attribute: where to display the linked URL, the following keywords have special meanings for where to the load url.
+  _self: the current browsing context. (Default)
+  _blank:usually a new tab, but users can configure browsers to open a new window instead.
+  _parent: the parent browsing context of the current one. If no parent, behaves as _self.
+  _top: the topmost browsing context (the "highest" context that’s an ancestor of the current one). If no ancestors, behaves as _self.
+  
+  -->
+<!--  main element represents the dominant content of the body of the document
+ The main content area consists of content that is directly related to or expands upon the central topic of a document, or the central functionality of an application.-->
+<!--
+  <main role="main">
+  	<p>The main content area consists of content that is directly related to or expands upon the central topic of a document, or the central functionality of an application.</p>
+  </main>
+-->
+<a href="#main-content">Skip to main content</a>
+
+  <!-- navigation and header content -->
+
+<!--  The HTML Abbreviation element (<abbr>) represents an abbreviation or acronym; the optional title attribute can provide an expansion or description for the abbreviation. If present, title must contain this full description and nothing else.-->
+<div>
+<abbr title="HyperText Markup Language">HTML</abbr>
+<abbr title="Ecma Script 6">ES6</abbr>
+</div>
+
+
+
+<!--  article element
+  article element represents a self-contained composition in a document, page,application, or site . default font size:24px
+  and font-weight:700
+  -->
+  <article>
+  	<h1>Weather forecast for Seattle</h1>
+  	<article>
+  		<h2>03 March 2018</h2>
+        <p>Rain.</p>
+  	</article>
+  </article>
+ 
+<!--   footer element typically conatins information about the author of the section, copyright data or link to related document-->
+<!--   address element indicates that the enclosed html provides contact information for a person or people, or for an organization
+   Permitted content:	Flow content, but with no nested <address> element, no heading content (<hgroup>, <h1>, <h2>, <h3>, <h4>, <h5>, <h6>), no sectioning content (<article>, <aside>, <section>, <nav>), and no <header> or <footer> element.-->
+ <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam, a illum aspernatur adipisci cum. Eaque earum quasi sapiente consequatur incidunt repellat distinctio excepturi corporis, facere, neque sed provident facilis, sunt iusto! Atque, incidunt, vero!</p>
+   <main id="main-content">
+    <p>main content skip</p>
+  </main>
+   <button name="button" >click here</button>
+   <!--AUDIO ELEMENT is used to embed a sound content in document. it may contain one or more audio source represenred using the "src" atttribute or <source></source> element .It can also be the destination for streamed media, using a MediaStream.--
+   attributes: 
+   controls: If this attribute is present, the browser will offer controls to allow the user to control audio playback, including volume, seeking, and pause/resume playback.-->
+<audio src="./acoustic-guitar-94-52253.mp3" controls  loop muted></audio>
+<!--  bdi bidirectional Isolate element tells the browser's bidirectional alogrithim to treat the text it contains in isolation from its surrounding text-->
+ <h1>World wrestling championship</h1>
+  <ul>
+  	<li><bdi>Evil Steven</bdi>:1at place</li>	<li><bdi>Evil Steven</bdi>:1at place</li>	<li><bdi>Evil Steven</bdi>:1at place</li>
+  </ul>
+   <video src=""></video>
+    <footer> 
+   	  <address>
+  	  	  <a href="#" role="link">html@gmail.com</a>
+   	  	 <p role="address">(311) 555-2368</p>
+   	  </address>
+    	  <p>© 2018 Gandalf</p>
+    </footer>
+  </body>
+</html>
